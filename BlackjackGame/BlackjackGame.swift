@@ -7,6 +7,8 @@
 
 // BlackjackGame.swift
 
+// BlackjackGame.swift
+
 import Foundation
 
 class BlackjackGame {
@@ -31,7 +33,7 @@ class BlackjackGame {
         dealerHand = Hand()
         isPlayerTurn = true
         result = ""
-        statusMessage = "Your turn"
+        statusMessage = "Place your bet"
         gameResult = .tie  // Reset the game result
     }
 
