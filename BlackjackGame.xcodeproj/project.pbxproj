@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DB0001B02CDA71A800BCFD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0001972CDA71A700BCFD15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB00019E2CDA71A700BCFD15;
+			remoteInfo = BlackjackGame;
+		};
+		DB0001BA2CDA71A800BCFD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0001972CDA71A700BCFD15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB00019E2CDA71A700BCFD15;
+			remoteInfo = BlackjackGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB00019F2CDA71A700BCFD15 /* BlackjackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackjackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0001AF2CDA71A800BCFD15 /* BlackjackGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackjackGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0001B92CDA71A800BCFD15 /* BlackjackGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackjackGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB0001A12CDA71A700BCFD15 /* BlackjackGame */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlackjackGame;
+			sourceTree = "<group>";
+		};
+		DB0001B22CDA71A800BCFD15 /* BlackjackGameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlackjackGameTests;
+			sourceTree = "<group>";
+		};
+		DB0001BC2CDA71A800BCFD15 /* BlackjackGameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlackjackGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB00019C2CDA71A700BCFD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001AC2CDA71A800BCFD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001B62CDA71A800BCFD15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0001962CDA71A700BCFD15 = {
+			isa = PBXGroup;
+			children = (
+				DB0001A12CDA71A700BCFD15 /* BlackjackGame */,
+				DB0001B22CDA71A800BCFD15 /* BlackjackGameTests */,
+				DB0001BC2CDA71A800BCFD15 /* BlackjackGameUITests */,
+				DB0001A02CDA71A700BCFD15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0001A02CDA71A700BCFD15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB00019F2CDA71A700BCFD15 /* BlackjackGame.app */,
+				DB0001AF2CDA71A800BCFD15 /* BlackjackGameTests.xctest */,
+				DB0001B92CDA71A800BCFD15 /* BlackjackGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB00019E2CDA71A700BCFD15 /* BlackjackGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0001C32CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGame" */;
+			buildPhases = (
+				DB00019B2CDA71A700BCFD15 /* Sources */,
+				DB00019C2CDA71A700BCFD15 /* Frameworks */,
+				DB00019D2CDA71A700BCFD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB0001A12CDA71A700BCFD15 /* BlackjackGame */,
+			);
+			name = BlackjackGame;
+			packageProductDependencies = (
+			);
+			productName = BlackjackGame;
+			productReference = DB00019F2CDA71A700BCFD15 /* BlackjackGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB0001AE2CDA71A800BCFD15 /* BlackjackGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0001C62CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGameTests" */;
+			buildPhases = (
+				DB0001AB2CDA71A800BCFD15 /* Sources */,
+				DB0001AC2CDA71A800BCFD15 /* Frameworks */,
+				DB0001AD2CDA71A800BCFD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0001B12CDA71A800BCFD15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB0001B22CDA71A800BCFD15 /* BlackjackGameTests */,
+			);
+			name = BlackjackGameTests;
+			packageProductDependencies = (
+			);
+			productName = BlackjackGameTests;
+			productReference = DB0001AF2CDA71A800BCFD15 /* BlackjackGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB0001B82CDA71A800BCFD15 /* BlackjackGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0001C92CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGameUITests" */;
+			buildPhases = (
+				DB0001B52CDA71A800BCFD15 /* Sources */,
+				DB0001B62CDA71A800BCFD15 /* Frameworks */,
+				DB0001B72CDA71A800BCFD15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB0001BB2CDA71A800BCFD15 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB0001BC2CDA71A800BCFD15 /* BlackjackGameUITests */,
+			);
+			name = BlackjackGameUITests;
+			packageProductDependencies = (
+			);
+			productName = BlackjackGameUITests;
+			productReference = DB0001B92CDA71A800BCFD15 /* BlackjackGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0001972CDA71A700BCFD15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DB00019E2CDA71A700BCFD15 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DB0001AE2CDA71A800BCFD15 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DB00019E2CDA71A700BCFD15;
+					};
+					DB0001B82CDA71A800BCFD15 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DB00019E2CDA71A700BCFD15;
+					};
+				};
+			};
+			buildConfigurationList = DB00019A2CDA71A700BCFD15 /* Build configuration list for PBXProject "BlackjackGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0001962CDA71A700BCFD15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB0001A02CDA71A700BCFD15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB00019E2CDA71A700BCFD15 /* BlackjackGame */,
+				DB0001AE2CDA71A800BCFD15 /* BlackjackGameTests */,
+				DB0001B82CDA71A800BCFD15 /* BlackjackGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB00019D2CDA71A700BCFD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001AD2CDA71A800BCFD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001B72CDA71A800BCFD15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB00019B2CDA71A700BCFD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001AB2CDA71A800BCFD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0001B52CDA71A800BCFD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB0001B12CDA71A800BCFD15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB00019E2CDA71A700BCFD15 /* BlackjackGame */;
+			targetProxy = DB0001B02CDA71A800BCFD15 /* PBXContainerItemProxy */;
+		};
+		DB0001BB2CDA71A800BCFD15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB00019E2CDA71A700BCFD15 /* BlackjackGame */;
+			targetProxy = DB0001BA2CDA71A800BCFD15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB0001C12CDA71A800BCFD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB0001C22CDA71A800BCFD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0001C42CDA71A800BCFD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlackjackGame/Preview Content\"";
+				DEVELOPMENT_TEAM = P4634XBSJ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0001C52CDA71A800BCFD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlackjackGame/Preview Content\"";
+				DEVELOPMENT_TEAM = P4634XBSJ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB0001C72CDA71A800BCFD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackjackGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlackjackGame";
+			};
+			name = Debug;
+		};
+		DB0001C82CDA71A800BCFD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackjackGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlackjackGame";
+			};
+			name = Release;
+		};
+		DB0001CA2CDA71A800BCFD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackjackGame;
+			};
+			name = Debug;
+		};
+		DB0001CB2CDA71A800BCFD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.branson.BlackjackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackjackGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB00019A2CDA71A700BCFD15 /* Build configuration list for PBXProject "BlackjackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0001C12CDA71A800BCFD15 /* Debug */,
+				DB0001C22CDA71A800BCFD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0001C32CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0001C42CDA71A800BCFD15 /* Debug */,
+				DB0001C52CDA71A800BCFD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0001C62CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0001C72CDA71A800BCFD15 /* Debug */,
+				DB0001C82CDA71A800BCFD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0001C92CDA71A800BCFD15 /* Build configuration list for PBXNativeTarget "BlackjackGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0001CA2CDA71A800BCFD15 /* Debug */,
+				DB0001CB2CDA71A800BCFD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0001972CDA71A700BCFD15 /* Project object */;
+}
